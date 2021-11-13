@@ -6,7 +6,7 @@ const cliArt = require("figlet");
 const clear = require("clear");
 const chalk = require("chalk");
 
-const options = [
+const menu = [
   "View All Employees",
   "Add Employee",
   "Delete Employee",
@@ -52,7 +52,7 @@ function initiate() {
         type: "list",
         pageSize: 13,
         message: "What would you like to do?",
-        choices: options,
+        choices: menu,
       },
     ])
     .then((answer) => {
@@ -145,7 +145,7 @@ function addEmployee() {
       value,
     }));
     const userManager = employee.map(({ name: first_name, id: value }) => ({
-      name,
+      first_name,
       value,
     }));
     inquirer
