@@ -1,0 +1,28 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Employee Management System",
+  "main": "index.js",
+  "script": {
+    "test": "echo \"ErrorL no test specified\" && exit 1"
+  },
+  "respository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmorg-hs/Employee_Tracker.git"
+  },
+  "author": "jonmorg-hs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonmorg-hs/Employee_Tracker/issues"
+  },
+  "homepage": "https://github.com/jonmorg-hs/Employee_Tracker#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.4",
+    "mysql2": "^2.2.5",
+    "console.table": "^0.10.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.4",
+    "util": "^0.12.1"
+  }
+}
