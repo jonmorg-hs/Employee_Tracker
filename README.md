@@ -7,7 +7,6 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Demo](*demo)
 - [License](#license)
 
@@ -22,10 +21,6 @@ Install nodejs and dependencies (npm inquirer) the download code
 # Usage
 
 Using nodejs, run node index.js to answer inputs to manage your employees
-
-# Screenshots
-
-<img src="assets/images/employee_tracker.png">
 
 # Demo
 
